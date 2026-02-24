@@ -17,7 +17,7 @@ export class ProductList {
       name: "Смартфон INOI A52 Lite 1 ГБ/32 ГБ синий",
       description: "Смартфон INOI A52 Lite создан с вниманием к деталям. Гладкие плавные линии корпуса позволяют комфортно держать его в руке, а благодаря тонкой рамке дисплея и максимальной площади полезного пространства INOI A52 Lite 32GB выделит тебя из толпы.",
       price: 35000,
-      rating: 4.0,
+      rating: 2.0,
       image: "https://resources.cdn-kaspi.kz/img/m/p/h6e/hb6/86036254621726.jpg?format=gallery-medium",
       images: [
         "https://resources.cdn-kaspi.kz/img/m/p/h6e/hb6/86036254621726.jpg?format=gallery-medium",
