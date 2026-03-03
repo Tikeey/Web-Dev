@@ -1,5 +1,5 @@
 <div class="product-card">
-  <!-- Image Gallery -->
+
   <div class="image-container">
     <img [src]="getCurrentImage()" [alt]="product.name" class="product-image">
 
@@ -18,7 +18,6 @@
     </div>
   </div>
 
-  <!-- Product Info -->
   <div class="product-info">
     <h3 class="product-name">{{ product.name }}</h3>
 
@@ -33,14 +32,13 @@
 
     <div class="price">{{ formatPrice(product.price) }} ₸</div>
 
-    <!-- Actions -->
     <div class="actions">
       <a [href]="product.link" target="_blank" class="btn btn-primary">
         Смотреть на Kaspi.kz
       </a>
 
       <div class="bottom-actions">
-        <!-- Like Button -->
+
         <button
           class="btn btn-like"
           [class.liked]="liked"
@@ -48,13 +46,11 @@
           {{ liked ? '❤️' : '🤍' }} {{ product.likes }}
         </button>
 
-        <!-- Delete Button -->
         <button class="btn btn-delete" (click)="onDelete()">
           🗑️ Удалить
         </button>
       </div>
 
-      <!-- Share Buttons -->
       <div class="share-buttons">
         <button (click)="shareOnWhatsApp()" class="btn btn-share whatsapp">
           WhatsApp

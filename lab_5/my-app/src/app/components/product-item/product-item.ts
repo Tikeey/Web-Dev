@@ -15,7 +15,7 @@ export class ProductItemComponent {
 
   currentImageIndex: number = 0;
   liked: boolean = false;
-
+  
   getStars(): string[] {
     const rating = this.product.rating;
     const fullStars = Math.floor(rating);
