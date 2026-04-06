@@ -1,0 +1,8 @@
+$kind: http-request
+name: Update Category
+url: http://127.0.0.1:8000/api/categories/4/
+method: PUT
+body:
+  type: json
+  content: '{"name": "Electronics Updated"}'
+order: 4410417334908023

@@ -1,0 +1,9 @@
+$kind: http-request
+name: Create Product
+url: http://127.0.0.1:8000/api/products/
+method: POST
+body:
+  type: json
+  content: '{"name": "Test Product", "price": 9.99, "description": "Test",
+    "count": 5, "is_active": true, "category": 5}'
+order: 4158784566910604
